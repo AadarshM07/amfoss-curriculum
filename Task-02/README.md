@@ -1,6 +1,7 @@
 # Text editor
 
-A text editor developed using C
+
+A lightweight C text editor using ncurses
 
 ## Features
 
