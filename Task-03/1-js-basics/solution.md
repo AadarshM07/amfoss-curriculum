@@ -21,7 +21,7 @@
 
 ```const input="";```
 
-- THis variable is to store string.it will be useful to store the users command . which can be further analysed to respond with proper functions.
+- This variable is to store string.it will be useful to store the users command . which can be further analysed to respond with proper functions.
 
 
 ```const imageElement;```
@@ -34,20 +34,20 @@
 
 ```var tax;```
 
-- this variable will be useful to specify tax rate for products
+- This variable will be useful to specify tax rate for products
 
 ```const actualprice;```
 
-- this variable will be useful inorder to store the actual price and later can be displayed too.
+- This variable will be useful inorder to store the actual price and later can be displayed too.
 
 ```const icon;```
 
-- this variable will be useful to store any icons if needed
+- This variable will be useful to store any icons if needed
 
 ```var final_price;```
 
-- this variable is to calculate and store the final price of the product after tax and discount
+- This variable is to calculate and store the final price of the product after tax and discount
 
 ```let Bool = true```
 
-- this varibale will be useful to decide whether the payment was succesful or not.
+- This varibale will be useful to decide whether the payment was succesful or not.
