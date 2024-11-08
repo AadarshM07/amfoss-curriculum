@@ -51,3 +51,52 @@
 ```let Bool = true```
 
 - This varibale will be useful to decide whether the payment was succesful or not.
+
+
+
+### **2.functions-methods**
+
+```
+function function1(name,age){
+    var year = 2024-age;
+    console.log(`Hello ${name}, you were born in ${year}!`);
+}
+
+
+function1("Aadarsh","17");
+
+Hello Aadarsh, you were born in 2007!
+
+
+function function2(name, age) {
+    var year = 2024 - age;
+    const message = `Hello ${name}, you were born in ${year}!`;
+    return message;
+}
+
+const find = function2("Aadarsh", 17);
+console.log(find);
+Hello Aadarsh, you were born in 2007!
+
+
+function multiply(a,b,c){
+    const prod=a*b*c;
+    return prod;
+}
+const value=multiply(2,20,30);
+console.log(value);
+
+1200
+
+function multiply(a,b=10,c=20){
+    const prod=a*b*c;
+    return prod;
+}
+const value=multiply(2);
+console.log(value);
+
+400
+
+```
+
+
