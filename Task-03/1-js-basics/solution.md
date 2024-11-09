@@ -117,10 +117,10 @@ Lets dive into some more gotchas:
 
 
 ### **2.functions-methods**
-```
+
 **Assignment:**
 
-
+```
 function function1(name,age){
     var year = 2024-age;
     console.log(`Hello ${name}, you were born in ${year}!`);
@@ -164,11 +164,18 @@ console.log(value);
 
 ```
 
+**Challenge**
+```
+Function is a reusable block of code that can be called on its own which is made by the developer, while method is a function
+that's associated with an object and is built-in.
+```
+
 ### **3.Making-decisions**
 
 **Assignment:**
 
-```let allStudents = [
+```
+let allStudents = [
     'A',
     'B-',
     1,
@@ -189,6 +196,28 @@ for(let i=0; i<=allStudents.length; i++){
 console.log(studentsWhoPass);
 ```
 
+**Challenge:**
+```
+//Program to check whether the user is eligible to vote using age.
+
+//With logical operators:
+let age=17;
+let response = (age>=18) ? "Eligible to vote": "Not eligible to vote";
+console.log(reponse);
+//output 'Not eligible to vote'
+
+//With Ternery expression
+let age=17;
+const response = (age>=18) ? "Eligible to vote": "Not eligible to vote";
+console.log(response);
+//output 'Not eligible to vote'
+
+My preffered syntax:
+
+- I preffer using if/else statement with logical operator because there i can give lot of conditions and will be more code efficient.
+
+```
+
 ### **4.Arrays-loops**
 
 **Assignment:**
@@ -206,4 +235,26 @@ for(let i=1; i<=20; i=i+3){
 16  
 19  
 
+```
+
+**Challenge:**
+```
+let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
+
+for (let i = 0; i < iceCreamFlavors.length; i++) {
+  console.log(iceCreamFlavors[i]);
+}
+
+//rewriting this code using for-of
+
+for (let name of iceCreamFlavors){
+    console.log(name);
+}
+
+output :
+Chocolate
+Strawberry
+Vanilla
+Pistachio
+Rocky Road
 ```
