@@ -29,15 +29,15 @@ const input="";
 
 const imageElement;
 
-- This variable will be useful inorder to store any image elemts that need to be displayed regarding the products
+- This variable will be useful inorder to store any image elemts that need to be displayed regarding the products.
 
 const Discount;
 
-- This variable will be useful to store if any discounted price is there
+- This variable will be useful to store if any discounted price is there.
 
 var tax;
 
-- This variable will be useful to specify tax rate for products
+- This variable will be useful to specify tax rate for products.
 
 const actualprice;
 
@@ -45,11 +45,11 @@ const actualprice;
 
 const icon;
 
-- This variable will be useful to store any icons if needed
+- This variable will be useful to store any icons if needed.
 
 var final_price;
 
-- This variable is to calculate and store the final price of the product after tax and discount
+- This variable is to calculate and store the final price of the product after tax and discount.
 
 let Bool = true
 
